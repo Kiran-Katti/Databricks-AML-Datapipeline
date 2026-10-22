@@ -77,12 +77,14 @@ Gold counts reconcile with Silver. Silver has no nulls, invalid timestamps, non-
 ## Repository Structure
 
 ```
-├── README.md
-├── notebooks/
-│   ├── 01_bronze_ingestion
-│   ├── 02_silver_transformation
-│   └── 03_gold_daily_metrics
-├── docs/
-│   └── architecture.png
-└── .gitignore
+Databricks-AML-Datapipeline
++-- docs
+|   \-- architecture.md
++-- notebooks
+|   +-- Bronze_AML.ipynb
+|   +-- Gold_AML.ipynb
+|   +-- Initial_Analysis.ipynb
+|   +-- Initial_Validation.ipynb
+|   \-- Silver_AML.ipynb
+\-- README.md
 ```
